@@ -24,13 +24,4 @@ app.get("/test1", function(req, res) {
     res.sendFile(path.join(__dirname, "./views/test1.html"));
 });
 
-app.get("/test1", function(req, res) {
-    res.sendFile(path.join(__dirname, "./views/test1.html"));
-});
-
-
-// app.get("/home", function(req, res) {
-//     res.sendFile(path.join(__dirname, "/"));
-// });
-
 app.listen(HTTP_PORT, getit_started);
