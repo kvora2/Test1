@@ -23,5 +23,5 @@ app.get("/", function (req, res) {
 app.get("/test1", function(req, res) {
     res.sendFile(path.join(__dirname, "./views/test1.html"));
 });
-dfbdf
+
 app.listen(HTTP_PORT, getit_started);
